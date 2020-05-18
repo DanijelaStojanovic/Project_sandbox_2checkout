@@ -1,0 +1,44 @@
+// * please note that in case of updating this file, line numbers should remain unchanged* //
+// * URLs:
+home_url=   https://sandbox.2checkout.com/sandbox
+dashboard_url=   https://sandbox.2checkout.com/sandbox/home/dashboard
+registration_url=   https://sandbox.2checkout.com/sandbox/signup
+products_url=   https://sandbox.2checkout.com/sandbox/products/
+createProduct_url=   https://sandbox.2checkout.com/sandbox/products/create_product
+// *Locators and XPATHs 
+login_username=   //input[@placeholder='Username']
+login_password=   //input[@id='password']
+login_submit_button=   //input[@class='btn blue']
+login_incorrect=   //p[contains(text(),'Incorrect username or password.')]
+
+signUp_button=   //a[contains(text(),'Sign up')]
+signUp_username=   //input[@id='username']
+signUp_email=   //input[@id='email']
+signUp_password=   //input[@id='password']
+signUp_confirmPass=   //input[@id='confirm']
+signUp_aboutYou=   //select[@id='aboutyou']
+signUp_submit=   //input[@id='submit-button']
+
+dashboard_accountAvatar=   //div[@id='account-avatar']
+dashboard_logOutBtn=   //a[@id='logout']
+dashboard_productsBtn=   //a[contains(text(),'Products')]
+
+products_addNew=   //a[contains(text(),'Add New Product')]
+
+createProduct_name=   //input[@name='name']
+createProduct_Id=   //input[@name='vendor_product_id']
+createProduct_price=   //input[@name='price']
+createProduct_submit=   //input[@name='submit']
+createProduct_successful=   //span[@class='form_valid large']
+createProduct_unsuccessful=   //span[@class='form_invalid large']
+
+product_edit_button=   //a[contains(text(),'Edit')]
+
+product_1_css_selector=   div.container div.row.not-hidden:nth-child(2) div.col.span-12 div.col.span-12.scroll:nth-child(3) table:nth-child(1) tbody:nth-child(1) tr.content:nth-child(2) td.right-align.total:nth-child(6) > input:nth-child(1)
+product_2_css_selector=   div.container div.row.not-hidden:nth-child(2) div.col.span-12 div.col.span-12.scroll:nth-child(3) table:nth-child(1) tbody:nth-child(1) tr.content_alt:nth-child(3) td.right-align.total:nth-child(6) > input:nth-child(1)
+product_3_css_selector=   div.container div.row.not-hidden:nth-child(2) div.col.span-12 div.col.span-12.scroll:nth-child(3) table:nth-child(1) tbody:nth-child(1) tr.content:nth-child(4) td.right-align.total:nth-child(6) > input:nth-child(1)
+product_4_css_selector=   div.container div.row.not-hidden:nth-child(2) div.col.span-12 div.col.span-12.scroll:nth-child(3) table:nth-child(1) tbody:nth-child(1) tr.content_alt:nth-child(5) td.right-align.total:nth-child(6) > input:nth-child(1)
+product_5_css_selector=   div.container div.row.not-hidden:nth-child(2) div.col.span-12 div.col.span-12.scroll:nth-child(3) table:nth-child(1) tbody:nth-child(1) tr.content:nth-child(6) td.right-align.total:nth-child(6) > input:nth-child(1)
+
+save_changes_btn=   //input[@class='context-btn save']
+editProducts_successful=   //span[@class='form_valid']
